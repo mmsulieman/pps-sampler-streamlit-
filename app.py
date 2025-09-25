@@ -302,3 +302,17 @@ if uploaded is not None:
         st.stop()
 else:
     st.info("Upload a file to begin. You can drag & drop a .csv or .xlsx file into this area.")
+
+
+# ---------------------------------------------------------
+# Footer (optional)
+# ---------------------------------------------------------
+st.markdown(
+    """
+    <hr style="margin-top:2rem; margin-bottom:0.5rem;">
+    <div style="color:gray; font-size:0.9em;">
+      © WFP Ethiopia – Somali Region (Jijiga AO) &nbsp;|&nbsp; PPS village sampling utility
+    </div>
+    """,
+    unsafe_allow_html=True
+)
